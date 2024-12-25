@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "medical-terms-lookup",
+  "productName": "Look up Medical Terms",
   "version": "0.1.0",
   "identifier": "com.medical-terms-lookup.app",
   "build": {
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "medical-terms-lookup",
+        "title": "Look up Medical Terms",
         "width": 800,
         "height": 600
       }
