@@ -30,7 +30,7 @@ function App() {
       })
     
       const prompt = ChatPromptTemplate.fromMessages([
-        ["system", "For the following medical terms, provide (1) IPA transcription: (e.g., /ˌkɑːrdɪoʊˈmaɪəpəθi/), (2) Breakdown: (e.g., 'Cardio-': /ˈkɑːrdɪoʊ/ - Heart, '-myo-': /ˈmaɪoʊ/ - Muscle, '-pathy': /ˈpæθi/ - Disease or disorder), (3) Meaning: (e.g., 'Disease of the heart muscle.')"],
+        ["system", "For the following medical terms, provide (1) IPA transcription: (e.g., /ˌkɑːrdɪoʊˈmaɪəpəθi/), (2) Breakdown in dot points: (e.g., '* Cardio-': /ˈkɑːrdɪoʊ/ - Heart\n * '-myo-': /ˈmaɪoʊ/ - Muscle\n * '-pathy': /ˈpæθi/ - Disease or disorder), (3) Meaning: (e.g., 'Disease of the heart muscle.'), (4) Vietnamese translation"],
         ["human", "{input}"],
       ]);
       setChain(prompt.pipe(llm));
