@@ -1,6 +1,10 @@
-# Tauri + React + Typescript
+# Look up medical terms
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+A utility app that lets you look up medical terms, get its breakdown in terms of prefix, word root and suffix, definition, translation to another language, and audio pronunciation.
+
+It uses Google Gemini API. You can get a free API Key, and Google Translate for pronunciation.
+
+![](./screenshot.png)
 
 ## Recommended IDE Setup
 
